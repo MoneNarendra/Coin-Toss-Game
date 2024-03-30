@@ -1,0 +1,98 @@
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  width: 50vw;
+  min-height: 60vh;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 577px) {
+  .inner-container {
+    min-height: 55vh;
+    width: 70vw;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #a35200;
+  font-weight: bold;
+}
+
+.discription {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.coin-img {
+  height: 240px;
+}
+
+@media screen and (max-width: 577px) {
+  .heading {
+    font-size: 20px;
+  }
+  .discription {
+    font-size: 15px;
+  }
+  .coin-img {
+    height: 180px;
+  }
+}
+
+.toss-btn {
+  height: 35px;
+  width: 90px;
+  margin-top: 20px;
+  border-width: 0px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.counting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.count-item {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.count-item-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #334155;
+}
+
+@media screen and (max-width: 577px) {
+  .counting-container {
+    flex-direction: column;
+  }
+  .count-item {
+    margin: 0px;
+  }
+  .count-item-text {
+    font-size: 15px;
+  }
+}
